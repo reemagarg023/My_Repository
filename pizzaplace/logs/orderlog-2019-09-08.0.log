@@ -1,0 +1,69 @@
+2019-09-08 15:55:32,005 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:21:47,972 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:21:51,361 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:21:51,402 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:22:13,200 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:22:16,728 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:22:54,230 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:23:24,985 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:23:28,361 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:25:14,963 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:25:16,213 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:25:16,245 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:25:16,760 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:25:18,150 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:25:19,729 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:25:20,294 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:25:21,863 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:27:04,078 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-08 16:27:07,189 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-08 16:27:10,280 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:27:10,764 Reeama INFO   com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_ordered.txt
+2019-09-08 16:27:26,808 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:27:26,817 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:27:26,818 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:27:26,819 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:27:26,820 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:27:26,820 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:27:26,821 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:27:26,822 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:27:26,823 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-08 16:27:26,823 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-08 16:27:26,824 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:27:26,824 Reeama INFO   com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_ordered.txt
+2019-09-08 16:35:40,475 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:35:40,483 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:35:40,486 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:35:40,487 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:35:40,487 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:35:40,487 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:35:40,488 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:35:40,488 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:35:40,490 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-08 16:35:40,491 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-08 16:35:40,491 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:35:40,492 Reeama INFO   com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_ordered.txt
+2019-09-08 16:38:12,024 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:38:12,024 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:38:12,026 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:38:12,026 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:38:12,026 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:38:12,026 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:38:12,027 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:38:12,027 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:38:12,029 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-08 16:38:12,029 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-08 16:38:12,029 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:38:12,030 Reeama INFO   com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_ordered.csv
+2019-09-08 16:41:06,719 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-08 16:41:06,720 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-08 16:41:06,721 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-08 16:41:06,721 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-08 16:41:06,722 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-08 16:41:06,722 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-08 16:41:06,722 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-08 16:41:06,722 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file9
+2019-09-08 16:41:06,723 Reeama INFO   com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-08 16:41:06,723 Reeama INFO   com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-08 16:41:06,723 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-08 16:41:06,724 Reeama INFO   com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_ordered.csv

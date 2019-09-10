@@ -1,0 +1,106 @@
+2019-09-06 17:46:14,930 INFO   org.springframework.boot.StartupInfoLogger Starting PizzaplaceApplication on Reemas-MacBook-Air.local with PID 27026 (/Users/reemagarg/eclipse-workspace/pizzaplace/target/classes started by reemagarg in /Users/reemagarg/eclipse-workspace/pizzaplace)
+2019-09-06 17:46:14,933 INFO   org.springframework.boot.SpringApplication No active profile set, falling back to default profiles: default
+2019-09-06 17:46:15,553 INFO   org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2b932d8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 17:46:15,581 INFO   org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-09-06 17:46:15,760 INFO   org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2019-09-06 17:46:15,772 INFO   org.apache.juli.logging.DirectJDKLog Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:46:15,781 INFO   org.apache.juli.logging.DirectJDKLog Starting service [Tomcat]
+2019-09-06 17:46:15,781 INFO   org.apache.juli.logging.DirectJDKLog Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-06 17:46:15,857 INFO   org.apache.juli.logging.DirectJDKLog Initializing Spring embedded WebApplicationContext
+2019-09-06 17:46:15,857 INFO   org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 887 ms
+2019-09-06 17:46:16,048 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:46:16,201 INFO   org.apache.juli.logging.DirectJDKLog Starting ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:46:16,214 ERROR   org.apache.juli.logging.DirectJDKLog Failed to start component [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.pizzaplace.PizzaplaceApplication.main(PizzaplaceApplication.java:10)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2019-09-06 17:46:16,218 INFO   org.apache.juli.logging.DirectJDKLog Pausing ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:46:16,218 INFO   org.apache.juli.logging.DirectJDKLog Stopping service [Tomcat]
+2019-09-06 17:46:16,223 INFO   org.apache.juli.logging.DirectJDKLog The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-09-06 17:46:16,224 INFO   org.apache.juli.logging.DirectJDKLog Stopping ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:46:16,224 INFO   org.apache.juli.logging.DirectJDKLog Destroying ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:46:16,226 INFO   org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-06 17:46:16,229 ERROR   org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-09-06 17:46:16,232 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:46:43,148 INFO   org.springframework.boot.StartupInfoLogger Starting PizzaplaceApplicationTests on Reemas-MacBook-Air.local with PID 27027 (started by reemagarg in /Users/reemagarg/eclipse-workspace/pizzaplace)
+2019-09-06 17:46:43,151 INFO   org.springframework.boot.SpringApplication No active profile set, falling back to default profiles: default
+2019-09-06 17:46:44,926 INFO   org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$68b52581] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 17:46:45,104 INFO   org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-09-06 17:46:46,077 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:46:46,727 INFO   org.springframework.boot.StartupInfoLogger Started PizzaplaceApplicationTests in 4.343 seconds (JVM running for 7.034)
+2019-09-06 17:46:47,536 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:47:23,741 INFO   org.springframework.boot.StartupInfoLogger Starting PizzaplaceApplication on Reemas-MacBook-Air.local with PID 27037 (/Users/reemagarg/eclipse-workspace/pizzaplace/target/classes started by reemagarg in /Users/reemagarg/eclipse-workspace/pizzaplace)
+2019-09-06 17:47:23,744 INFO   org.springframework.boot.SpringApplication No active profile set, falling back to default profiles: default
+2019-09-06 17:47:24,368 INFO   org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8af7ce61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 17:47:24,395 INFO   org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-09-06 17:47:24,560 INFO   org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2019-09-06 17:47:24,572 INFO   org.apache.juli.logging.DirectJDKLog Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:47:24,581 INFO   org.apache.juli.logging.DirectJDKLog Starting service [Tomcat]
+2019-09-06 17:47:24,581 INFO   org.apache.juli.logging.DirectJDKLog Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-06 17:47:24,637 INFO   org.apache.juli.logging.DirectJDKLog Initializing Spring embedded WebApplicationContext
+2019-09-06 17:47:24,637 INFO   org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 860 ms
+2019-09-06 17:47:24,815 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:47:24,958 INFO   org.apache.juli.logging.DirectJDKLog Starting ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:47:24,983 INFO   org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-06 17:47:24,986 INFO   org.springframework.boot.StartupInfoLogger Started PizzaplaceApplication in 1.586 seconds (JVM running for 2.015)
+2019-09-06 17:47:40,838 INFO   org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2019-09-06 17:47:40,841 INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:48:03,924 Reeama INFO   org.springframework.boot.StartupInfoLogger Starting PizzaplaceApplication on Reemas-MacBook-Air.local with PID 27038 (/Users/reemagarg/eclipse-workspace/pizzaplace/target/classes started by reemagarg in /Users/reemagarg/eclipse-workspace/pizzaplace)
+2019-09-06 17:48:03,926 Reeama INFO   org.springframework.boot.SpringApplication No active profile set, falling back to default profiles: default
+2019-09-06 17:48:04,543 Reeama INFO   org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$395318eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-06 17:48:04,581 Reeama INFO   org.springframework.ws.soap.addressing.server.AbstractAddressingEndpointMapping Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-09-06 17:48:04,766 Reeama INFO   org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+2019-09-06 17:48:04,777 Reeama INFO   org.apache.juli.logging.DirectJDKLog Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:48:04,785 Reeama INFO   org.apache.juli.logging.DirectJDKLog Starting service [Tomcat]
+2019-09-06 17:48:04,785 Reeama INFO   org.apache.juli.logging.DirectJDKLog Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-06 17:48:04,839 Reeama INFO   org.apache.juli.logging.DirectJDKLog Initializing Spring embedded WebApplicationContext
+2019-09-06 17:48:04,839 Reeama INFO   org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 880 ms
+2019-09-06 17:48:05,009 Reeama INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:48:05,151 Reeama INFO   org.apache.juli.logging.DirectJDKLog Starting ProtocolHandler ["http-nio-8080"]
+2019-09-06 17:48:05,173 Reeama INFO   org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-06 17:48:05,176 Reeama INFO   org.springframework.boot.StartupInfoLogger Started PizzaplaceApplication in 1.606 seconds (JVM running for 2.038)
+2019-09-06 17:53:01,527 Reeama INFO   org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin Application shutdown requested.
+2019-09-06 17:53:01,529 Reeama INFO   org.springframework.scheduling.concurrent.ExecutorConfigurationSupport Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-06 17:53:18,349 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log
+2019-09-06 18:19:22,150 Reeama INFO   com.pizzaplace.controller.PizzaController This custom Log componentto read null

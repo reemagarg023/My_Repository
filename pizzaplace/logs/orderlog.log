@@ -1,0 +1,19 @@
+2019-09-09 10:55:28,873 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-09 10:55:28,883 INFO com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
+2019-09-09 10:55:28,885 INFO com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to read file****************
+2019-09-09 10:55:28,885 INFO com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting started****************
+2019-09-09 10:55:28,885 INFO com.pizzaplace.service.impl.PizzaServiceImpl Number of records to be sorted: 9
+2019-09-09 10:55:28,886 INFO com.pizzaplace.service.impl.PizzaServiceImpl **********Sorting ended****************
+2019-09-09 10:55:28,886 INFO com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to write file****************
+2019-09-09 10:55:28,886 INFO com.pizzaplace.dao.impl.OrdersDAOImpl Number of records written in output file 9
+2019-09-09 10:55:28,888 INFO com.pizzaplace.dao.impl.OrdersDAOImpl **********Ending to write file****************
+2019-09-09 10:55:28,888 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Ended
+2019-09-09 10:55:28,888 INFO com.pizzaplace.controller.PizzaController File created at location: //Users//reemagarg//Downloads//data_order.csv
+2019-09-09 10:55:28,888 INFO com.pizzaplace.controller.PizzaController PizzaController :: generateOutputFilefromURL : Started
+2019-09-09 18:12:24,899 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-09 18:12:40,880 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-09 18:15:24,385 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-09 18:38:57,035 INFO com.pizzaplace.controller.PizzaController PizzaController :: generateOutputFileFromCmdLine : Started
+2019-09-09 18:38:57,036 INFO com.pizzaplace.controller.PizzaController Source: Hello Source Destination file: Hello Destination
+2019-09-09 18:38:57,037 INFO com.pizzaplace.service.impl.PizzaServiceImpl PizzaServiceImpl :: sortOrders : Started
+2019-09-09 18:38:57,037 INFO com.pizzaplace.dao.impl.OrdersDAOImpl **********Starting to read file****************
